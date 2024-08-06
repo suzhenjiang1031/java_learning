@@ -14,6 +14,7 @@ public class DLList {
     }
 
     private IntNode sentinel;
+    private IntNode last;
     private int size;
 
     public DLList() {
@@ -29,12 +30,8 @@ public class DLList {
 
     public void addlast(int x) {
         size = size + 1;
-        IntNode p = sentinel;
-
-        while (p.next != null) {
-            p = p.next;
-        }
-        p.next = new IntNode(x, null, p);
+        last.next = new IntNode(x, sentinel, null);
+        last = last.next;
     }
 
     public int getlast() {
@@ -63,7 +60,8 @@ public class DLList {
         d.addlast(3);
         d.addlast(4);
         d.addlast(5);
-        d.getlast();
+        int s = d.getlast();
+        System.out.println(s);
     }
 
 }
