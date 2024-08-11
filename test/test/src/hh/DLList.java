@@ -1,3 +1,5 @@
+package hh;
+
 //addLast getLast RemoveLast
 public class DLList {
     private static class IntNode {

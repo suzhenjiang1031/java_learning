@@ -1,3 +1,5 @@
+package hh;
+
 public class DogProblem {
     public static Dog[] largerThanFourNeighbors(Dog[] dogs) {
         Dog[] returnDogs = new Dog[dogs.length];

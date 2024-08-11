@@ -1,3 +1,5 @@
+package hh;
+
 public class Alist<Item> {
     private Item[] items;
     private int size;

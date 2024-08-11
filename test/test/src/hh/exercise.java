@@ -1,3 +1,5 @@
+package hh;
+
 public class exercise {
     public static void method1() {
         System.out.println("I am method 1.");
