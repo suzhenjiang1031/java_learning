@@ -4,8 +4,8 @@ import com.sun.source.tree.Tree;
 
 import javax.swing.*;
 
-public class TreeRepresentations {
-    public class Tree1A<Key> {
+//public class TreeRepresentations {
+//    public class Tree1A<Key> {
 //        Key k;
 //        Tree1A left;
 //        Tree1A middle;
@@ -25,6 +25,6 @@ public class TreeRepresentations {
 //        }
 //        public int parent(int k) {
 //            return (k - 1) / 2;
-        }
-    }
-}
+//        }
+//    }
+//}
