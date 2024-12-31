@@ -48,6 +48,7 @@ public class BFS {
             }
         }
     }
+
     public static void main(String[] args) {
         BFS b = new BFS(6); //Create a graph with 6 vertices
 
@@ -61,6 +62,5 @@ public class BFS {
         System.out.println("BFS starting from node 0:");
         b.bfs(0);
     }
-
 }
 
